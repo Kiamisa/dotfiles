@@ -1,0 +1,77 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/shenri/Imagens/lainIllustration.jpg",
+    "height": 15,
+    "width": 30,
+    "padding": {
+      "top": 1,
+      "left": 3,
+    },
+  },
+  "modules": [
+    "break",
+    {
+      "type": "cpu",
+      "keyColor": "white",
+    },
+    {
+      "type": "gpu",
+      "keyColor": "white",
+    },
+    {
+      "type": "memory",
+      "keyColor": "white",
+    },
+    {
+      "type": "disk",
+      "keyColor": "white",
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "OS",
+      "keyColor": "white",
+    },
+    {
+      "type": "kernel",
+      "keyColor": "white",
+    },
+    {
+      "type": "packages",
+      "keyColor": "white",
+    },
+    {
+      "type": "shell",
+      "keyColor": "white",
+    },
+    "break",
+    {
+      "type": "de",
+      "key": "DE",
+      "keyColor": "white",
+    },
+    {
+      "type": "lm",
+      "keyColor": "white",
+    },
+    {
+      "type": "wm",
+      "keyColor": "white",
+    },
+    {
+      "type": "wmtheme",
+      "keyColor": "white",
+    },
+    {
+      "type": "terminal",
+      "keyColor": "white",
+    },
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "diamond",
+    },
+  ],
+}
